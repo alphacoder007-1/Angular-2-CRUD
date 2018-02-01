@@ -11,7 +11,7 @@ export class CustomerListComponent implements OnInit {
   errorMessage: any;
   currentId: number = 0;
 
-  serarchText: string ='';
+  searchText: string ='';
   
   constructor( private _customerService : CustomerService,
                private _router: Router,
